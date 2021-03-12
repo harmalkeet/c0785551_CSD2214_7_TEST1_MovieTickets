@@ -35,7 +35,24 @@ function updateTextArea() {
         $('seatsBlock :cheaked').each(functions() {
              allSeatsVals.push($(this ).val());
         });
-        _
+        $('#nameDisplay').(allNameVals);
+        $('#numberDisplay').(allNumberVals);
+        $('#seatDisplay').(allseatsVals);
+    }
+    else{
+        alert("select"+($("#Numseats").val()))+ "seats")
+    }
+    function myFunction() {
+        alert("input:cheacked").length);
+
+    }
+    $
+
+
+
+        
+        
+        
 
 
     }
