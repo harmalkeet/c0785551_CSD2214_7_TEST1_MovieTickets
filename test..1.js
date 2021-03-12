@@ -27,7 +27,17 @@ function updateTextArea() {
     if ($("input:checked").length==($("Numseats").val()))
     {
         $(".seatStructure*").prop("disabled", true);
-        var allN
+        var allNumberVals = [];
+        var allNumberVals = [];
+        var allseatsVals = [];
+        allNumbeVals.push($("username").val());
+        allNumberVals.push($("Numseats").val());
+        $('seatsBlock :cheaked').each(functions() {
+             allSeatsVals.push($(this ).val());
+        });
+        _
+
+
     }
 
 }
